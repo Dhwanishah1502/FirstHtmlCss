@@ -6,29 +6,33 @@
 <title>Assignment</title>
 </head>
 <body>
-  <header class="header_ pad" style="--l:10px; --r:10px; --b:0px; --t:0px">
+
+  <!--HEADER------------------------------------------------------------------------>
+  <header class="header pad" style="--l:10px; --r:10px; --b:0px; --t:0px">
     <div>
       <img class="image pad" style="--b:5px;--t:5px;--l:5px;--r:5px" src="logo.jpg" alt="logo">
     </div>
     <div>
       <ul class="nav pad" style="--b:0px;--t:0px;--l:0px;--r:0px">
-        <li><a href="#home">Brand</a></li>
-        <li><a class="active" href="#news">About Me</a></li>
-        <li><a href="#contact">My Skills</a></li>
-        <li><a href="#about">My Projects</a></li>
-        <li><a href="#about">My Experiences</a></li>
-        <li><a href="#about">Contact Me</a></li>
+        <li class="nav__li"><a href="#home">Brand</a></li>
+        <li class="nav__li"><a class="active" href="#news">About Me</a></li>
+        <li class="nav__li"><a href="#contact">My Skills</a></li>
+        <li class="nav__li"><a href="#about">My Projects</a></li>
+        <li class="nav__li"><a href="#about">My Experiences</a></li>
+        <li class="nav__li"><a href="#about">Contact Me</a></li>
       </ul>
     </div>
   </header>
-  <div class="row_">
-    <div class="jumbotron_ pad" style="--b:0px;--t:0px;--l:30px;--r:0px">
-      <h3>Hello, there!</h3>
+
+  <!--HOME--------------------------------------------------------------------------->
+  <div class="home row">
+    <div class="jumbotron pad" style="--b:0px;--t:0px;--l:30px;--r:0px">
+      <h1>Hello, there!</h1>
       <p>Are own design entire former get should. Advantages boisterous day excellence boy</p>
       <button class="pad" style="--b:5px;--t:5px;--l:20px;--r:20px">My Portfolio</button>
     </div>
     <div class="column figandpara">
-      <div class="row_ pad" style="--b:15px;--t:0px;--l:0px;--r:10px">
+      <div class="row pad" style="--b:15px;--t:0px;--l:0px;--r:10px">
         <div>
           <img class="image" src="logo.jpg" alt="logo">
         </div>
@@ -37,7 +41,7 @@
           <p>Are own design entire former get should. Advantages boisterous day excellence boy.</p>
         </div> 
       </div>
-      <div class="row_ pad" style="--b:15px;--t:0px;--l:0px;--r:10px">
+      <div class="row pad" style="--b:15px;--t:0px;--l:0px;--r:10px">
         <div>
           <img class="image" src="logo.jpg" alt="logo">
         </div>
@@ -46,7 +50,7 @@
           <p>Are own design entire former get should. Advantages boisterous day excellence boy.</p>
         </div> 
       </div>
-      <div class="row_ pad" style="--b:0px;--t:0px;--l:0px;--r:10px">
+      <div class="row pad" style="--b:0px;--t:0px;--l:0px;--r:10px">
         <div>
           <img class="image" src="logo.jpg" alt="logo">
         </div>
@@ -58,11 +62,9 @@
     </div>
   </div>
 
-  <hr>
-
-<!--MY SKILLS-->
-
-  <h3 class="heading_">My Skills</h3>
+<!--MY SKILLS----------------------------------------------------------------------->
+  <div class="home">
+    <h1 class="heading">My Skills</h1>
     <div class="figandcaption">
       <figure style="padding-top: 0%; margin-top: 0%">
         <img class="image" src="logo.jpg" alt="logo">
@@ -81,19 +83,17 @@
         <figcaption>Skill Name</figcaption>
       </figure>
     </div>
+  </div>
   
-
-  <hr>
-
-<!--ABOUT ME-->
-  <div>
-    <h3 class="heading_">About Me</h3>
-  <div class="row_ aboutme ">
-    <div class="left">
-      <img class="image" src="logo.jpg" alt="logo">
+<!--ABOUT ME------------------------------------------------------------------------>
+  <div class="home">
+    <h1 class="heading">About Me</h1>
+  <div class="row aboutme ">
+    <div class="aboutme__left">
+      <img class="aboutme__left__image" src="logo.jpg" alt="logo">
     </div>
     <div class="column">
-      <div class="right">
+      <div class="aboutme__right">
         <p><strong>Are own design entire former get should.Advantages boisterous day excellence boy</strong><br><br>Advantages boisterous day excellence boy.</p>
       </div>
       <div>
@@ -105,52 +105,49 @@
   </div>
   </div>
 
-  <hr>
+<!--MY PROJECTS--------------------------------------------------------------------->
 
-<!--MY PROJECTS-->
-<!--test-->
-
-  <div>
-  <h3 class="heading_">My Projects</h3>
-    <div class="column myprojects">
-    <div class="row_ pad" style="--b:20px;--t:20px;--l:50px;--r:0px">
-      <div>
-        <div>
+  <div class="home">
+  <h1 class="heading">My Projects</h1>
+    <div class="row">
+    <div class="figandpara column">
+      <div class="row pad" style="--b:20px;--t:20px;--l:50px;--r:0px">
+        <div class="column">
           <img class="image" src="logo.jpg" alt="logo">
         </div>
-        <div>
+        <div class="column">
           <h4>Are own design entire</h4>
           <p>Are own design entire former get should.
           Advantages boisterous day excellence boy.</p>
         </div>
       </div> 
-      <div>
-        <div>
+      <div class="row pad" style="--b:20px;--t:20px;--l:50px;--r:50px">
+        <div class="column">
           <img class="image" src="logo.jpg" alt="logo">
         </div>
-        <div>
+        <div class="column">
           <h4>Are own design entire</h4>
           <p>Are own design entire former get should.
           Advantages boisterous day excellence boy.</p>
         </div>
       </div>
     </div>
-    <div class="row_ pad" style="--b:20px;--t:20px;--l:50px;--r:0px">
-      <div>
-        <div>
+    <div class="figandpara column">
+      <div class="row pad" style="--b:20px;--t:20px;--l:50px;--r:0px">
+        <div class="column">
           <img class="image" src="logo.jpg" alt="logo">
         </div>
-        <div>
+        <div class="column">
           <h4>Are own design entire</h4>
           <p>Are own design entire former get should.
           Advantages boisterous day excellence boy.</p>
         </div> 
       </div>
-      <div>
-        <div>
+      <div class="row pad" style="--b:20px;--t:20px;--l:50px;--r:50px">
+        <div class="column">
           <img class="image" src="logo.jpg" alt="logo">
         </div>
-        <div>
+        <div class="column">
           <h4>Are own design entire</h4>
           <p>Are own design entire former get should.
           Advantages boisterous day excellence boy.</p>
@@ -159,97 +156,94 @@
     </div>
     </div>
   </div>
-  
 
-  <hr>
-
-<!--MY EXPERIENCES-->
-
-  <h3 class="heading_">My Experiences</h3>
-  <div class="row_ myexperiences">
-    <ul>
-      <li>
+<!--MY EXPERIENCES----------------------------------------------------------------->
+  <div class="home">
+    <h1 class="heading">My Experiences</h1>
+  <div class="row">
+    <ul class="myexperiences">
+      <li class="myexperiences__li pad" style="--b:20px;--t:20px;--l:20px;--r:20px">
         <h5>List Group Item Heading</h5>
         <p>Are own design entire former get should.
           Advantages boisterous day excellence boy</p>
       </li>
-      <li>
+      <li class="myexperiences__li pad" style="--b:20px;--t:20px;--l:20px;--r:20px">
         <h5>List Group Item Heading</h5>
         <p>Are own design entire former get should.
           Advantages boisterous day excellence boy</p>
       </li>
-      <li>
+      <li class="myexperiences__li__last pad" style="--b:20px;--t:20px;--l:20px;--r:20px">
         <h5>List Group Item Heading</h5>
         <p>Are own design entire former get should.
           Advantages boisterous day excellence boy</p>
       </li>
     </ul>
-    <ul>
-      <li>
+    <ul class="myexperiences">
+      <li class="myexperiences__li pad" style="--b:20px;--t:20px;--l:20px;--r:20px">
         <h5>List Group Item Heading</h5>
         <p>Are own design entire former get should.
           Advantages boisterous day excellence boy</p>
       </li>
-      <li>
+      <li class="myexperiences__li pad" style="--b:20px;--t:20px;--l:20px;--r:20px">
         <h5>List Group Item Heading</h5>
         <p>Are own design entire former get should.
           Advantages boisterous day excellence boy</p>
       </li>
-      <li>
+      <li class="myexperiences__li__last pad" style="--b:20px;--t:20px;--l:20px;--r:20px">
         <h5>List Group Item Heading</h5>
         <p>Are own design entire former get should.
           Advantages boisterous day excellence boy</p>
       </li>
     </ul>
-    <ul>
-      <li>
+    <ul class="myexperiences">
+      <li class="myexperiences__li pad" style="--b:20px;--t:20px;--l:20px;--r:20px">
         <h5>List Group Item Heading</h5>
         <p>Are own design entire former get should.
           Advantages boisterous day excellence boy</p>
       </li>
-      <li>
+      <li class="myexperiences__li pad" style="--b:20px;--t:20px;--l:20px;--r:20px">
         <h5>List Group Item Heading</h5>
         <p>Are own design entire former get should.
           Advantages boisterous day excellence boy</p>
       </li>
-      <li>
+      <li class="myexperiences__li__last pad" style="--b:20px;--t:20px;--l:20px;--r:20px">
         <h5>List Group Item Heading</h5>
         <p>Are own design entire former get should.
           Advantages boisterous day excellence boy</p>
       </li>
     </ul>
   </div>
+  </div>
 
-  <hr>
-
-<!--CONTACT ME-->
-
-  <h3 class="heading_">Contact Me</h3>
+<!--CONTACT ME----------------------------------------------------------------------->
+  <div>
+    <h1 class="heading">Contact Me</h1>
   <form>
-  <div class="row_" style="--l: 5%;--r: 5%; --t:0%;--b:0%">
-    <div class="column contactme">
-      <input type="text" name="name" placeholder="Name" class="contactme">
-      <input type="email" name="email" placeholder="Email" class="contactme">
-      <input type="tel" name="usrtel" placeholder="Contact No" class="contactme">
-      <select id="country" name="country" class="contactme">
+  <div class="row pad" style="--l: 5%;--r: 5%; --t:0%;--b:0%">
+    <div class="column contactme pad" style="--b:0px;--t:0px;--l:20px;--r:20px">
+      <input type="text" name="name" placeholder="Name" class="contactme__element pad" style="--l: 20px;--r: 20px; --t:20px;--b:20px">
+      <input type="email" name="email" placeholder="Email" class="contactme__element pad" style="--l: 20px;--r: 20px; --t:20px;--b:20px">
+      <input type="tel" name="usrtel" placeholder="Contact No" class="contactme__element pad" style="--l: 20px;--r: 20px; --t:20px;--b:20px">
+      <select id="country" name="country" class="contactme__element pad" style="--l: 20px;--r: 20px; --t:20px;--b:20px">
         <option value="au" hidden>Country</option>
         <option value="ca">Canada</option>
         <option value="usa">USA</option>
       </select>
-      <textarea class="contactme">Address</textarea>
+      <textarea class="contactme__element pad" style="--l: 20px;--r: 20px; --t:20px;--b:20px" placeholder="Address"></textarea>
     </div>
-    <div class="column contactme" style="border-left: solid;border-width: 2px;">
-      <select id="country" name="country" style="padding-left: 5%;padding-right: 5%;margin-bottom: 5%;margin-left: 5%">
+    <div class="column contactme pad" style="border-left: solid;border-width: 2px;--b:0px;--t:0px;--l:20px;--r:20px">
+      <select id="country" name="country" class="contactme__element pad" style="--l: 20px;--r: 20px; --t:20px;--b:20px">
         <option value="au" hidden>Query Category</option>
         <option value="ca">Canada</option>
         <option value="usa">USA</option>
       </select>
-      <textarea style="padding-left: 5%;padding-right: 5%;margin-bottom: 5%;margin-left: 5%">Your Query</textarea>
+      <textarea class="contactme__element pad" style="--l: 20px;--r: 20px; --t:20px;--b:20px" placeholder="Your Query"></textarea>
     </div>
   </div>
-  <div style="text-align: center;">
-    <input type="button" class="button" value="Submit" style="text-align: center;">
+  <div class="form" style="text-align: center;">
+    <button class="pad" style="--b:5px;--t:5px;--l:20px;--r:20px">Submit</button>
   </div>
   </form>
+  </div>
 </body>
 </html>

@@ -1,0 +1,224 @@
+
+
+/*BLOCK***************************************************************************/
+
+body{
+  margin: 0px;
+}
+
+.pad{
+  padding-left: var(--l);
+  padding-right: var(--r);
+  padding-bottom: var(--b);
+  padding-top: var(--t);
+}
+
+.row{
+  display: flex; 
+  flex-direction: row;
+}
+
+.column{
+  display: flex; 
+  flex-direction: column;
+}
+
+.header{
+  background-color: #F4F3F3;
+  margin: 0;
+  height: 70px;
+}
+
+.image{
+  float: left;
+  width: 70px;
+  height: 60px;
+}
+
+.nav {
+    float: right;
+    list-style-type: none;
+    overflow: hidden;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #e7e7e7;
+    border-radius: 5px; 
+    margin-top: 25px; 
+    margin-bottom: 3px;
+}
+
+.jumbotron{
+  width: 50%;
+  margin: 5%;
+  margin-right: 2.5%;
+  background-color: #EEEDED;
+  border-style: solid;
+  border-color: #EEEDED;
+  border-radius: 5px;
+  position: relative;
+}
+
+.figandpara{
+  width: 50%;
+  margin: 5%;
+  margin-left: 2.5%;
+}
+
+.figandpara h4{
+  margin-left: 10px;
+}
+
+.figandpara p {
+  margin-top: 0px;
+  margin-left: 10px;
+  margin-bottom: 0px;
+}
+
+.heading{
+  text-align: center;
+  color: #7D7D7D;
+  margin-bottom: 50px;
+}
+
+.figandcaption{
+  padding-left: 10%;
+  padding-right: 10%;
+  column-count: 4;
+  column-gap: 20px;
+}
+
+.figandcaption .image{
+  width: 100px;
+  height: 100px;
+  border-style: none;
+  border-radius: 100%;
+  float: none;
+}
+
+.aboutme{
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.myexperiences{
+  border: 1px solid;
+  list-style: none;
+  padding-left: 0px;
+  margin: 10px;
+}
+
+.contactme{
+  width: 50%; 
+  margin-bottom: 5%;
+}
+
+.form{
+  position: relative;
+}
+
+.home{
+  border-bottom: 1px solid;
+  border-color: lightgray;
+}
+
+
+/*ELEMENTS**************************************************************************/
+
+.nav__li {
+
+    float: left;
+}
+
+.nav__li a {
+    display: block;
+    block-size: 15px;
+    color: black;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+
+.nav__li a.active{
+  background-color: #EDE9E9;
+}
+
+.aboutme__right{  
+  border-left: solid; 
+  border-width: 3px;
+  border-color: #E3E3E3;
+  padding-left: 2%;
+  margin-left: 2%
+}
+
+.aboutme__left{
+  width: 25%;
+}
+
+.aboutme__left__image{
+  float: right;
+  width: 100px;
+  height: 100px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+}
+
+.aboutme .column{
+  width: 75%;
+}
+
+.aboutme p{
+  margin-bottom: 0px;
+}
+
+.myexperiences__li{
+  border-bottom: solid;
+  list-style: none;
+  border-width: 1px;
+}
+
+.myexperiences__li__last{
+  border-bottom: none;
+}
+
+.contactme__element{
+  margin: 15px;
+  color: gray;
+  text-decoration: none;
+}
+
+.form button{
+  background-color: #204d74;
+  color: white;
+  border: 1px solid;
+  border-radius: 7px;
+  position: absolute;
+  top: 0px;
+  left: 45%;
+  height: 40px;
+}
+
+
+h4{
+  margin-top: 1%;
+  margin-bottom: 0px;
+}
+
+button{
+  background-color: #204d74;
+  color: white;
+  border: 1px solid;
+  border-radius: 7px;
+  position: absolute;
+  top: 85%;
+}
+
+figure{
+  margin: 0px;
+  text-align: center;
+}
+
+
+
+
+
+
